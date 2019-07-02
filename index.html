@@ -22,20 +22,21 @@
                 <h1 class="rpgHeading"> Clash Royale RPG</h1>
             </div>
         </div>
-        
+
         <!-- This will row will display initial four character at game load -->
         <div class="row">
             <div class="col-12 col-sm-8">
                 <div class="card text-center" style="width: 12rem;">
                     <h5 class="card-title">Prince</h5>
-                    <img src="assets/images/PrinceCard.png" width="150" height="150" class="card-img-top" alt="...">
+                    <img src="assets/images/PrinceCard.png" width="150" height="150" class="card-img-top imgClass"
+                        alt="...">
                     <div class="card-body">
                         <p class="card-text">120</p>
                     </div>
                 </div>
                 <div class="card text-center" style="width: 12rem;">
                     <h5 class="card-title">Executioner</h5>
-                    <img src="assets/images/ExecutionerCard.png" width="150" height="150" class="card-img-top"
+                    <img src="assets/images/ExecutionerCard.png" width="150" height="150" class="card-img-top imgClass"
                         alt="...">
                     <div class="card-body">
                         <p class="card-text">150</p>
@@ -43,14 +44,16 @@
                 </div>
                 <div class="card text-center" style="width: 12rem;">
                     <h5 class="card-title">Witch</h5>
-                    <img src="assets/images/WitchCard.png" width="150" height="150" class="card-img-top" alt="...">
+                    <img src="assets/images/WitchCard.png" width="150" height="150" class="card-img-top imgClass"
+                        alt="...">
                     <div class="card-body">
                         <p class="card-text">80</p>
                     </div>
                 </div>
                 <div class="card text-center" style="width: 12rem;">
                     <h5 class="card-title">Wizard</h5>
-                    <img src="assets/images/WizardCard.png" width="150" height="150" class="card-img-top" alt="...">
+                    <img src="assets/images/WizardCard.png" width="150" height="150" class="card-img-top imgClass"
+                        alt="...">
                     <div class="card-body">
                         <p class="card-text">100</p>
                     </div>
@@ -62,13 +65,15 @@
             <div class="col-12 col-sm-4">
                 <!-- This div is for placeholder Right side -->
             </div>
-        </div>        <!--Row containing initial four card close here-->
+        </div>
+        <!--Row containing initial four card close here-->
 
         <div class="row">
             <!-- Row for your character-->
-            <div class="col-12 col-sm-3">
+            <h2>Your Character :</h2>
+            <div id="yourCharacterDiv" class="col-12 col-sm-3 card">
                 <!-- This col holds your character image-->
-
+                
             </div>
             <div class="col-12 col-sm-3">
                 <!-- Place holder div-->
@@ -84,8 +89,23 @@
             </div>
 
         </div>
-    </div>
-    Clash royals
+
+        <div class="row">
+            <!-- Row for your character-->
+            <h2>Enimies to Select :</h2>
+            <div id="enemiesDiv" class="col-12 col-sm-8 card">
+                <!-- This col holds your character image-->
+                
+            </div>
+        </div>
+
+    </div><!--MainContainer div ends-->
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+    <script src="assets/js/game.js"></script>
+    </script>
 </body>
 
 </html>
