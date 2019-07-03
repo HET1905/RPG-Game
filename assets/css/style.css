@@ -61,6 +61,12 @@ h2{
     margin-left: 2px;
     border: 1px solid #000;
 }
+.imgClass:hover{
+    cursor: pointer;
+    padding:2px;
+    background:#222;
+}
+
 #yourCharacterDiv{
     width: 30%;
     /* border:1px solid #000; */
